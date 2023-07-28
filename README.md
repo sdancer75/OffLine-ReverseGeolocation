@@ -3,7 +3,7 @@ Simple offline reverse geolocation using CSV files. Written with javascript. Cur
 
 The application automatically downloads the country from the https://download.geonames.org/export/dump/ website and creates locally a `data` folder. Unzip the downloaded file and search inside the CSV to return a JSON response from the latitude and longitude you apply.  
 
-Import the module ie ```reverseGeoLoc = require('./reverse-geoLoc')```
+Import the module ie ```var reverseGeoLoc = require('./reverse-geoloc')```
 
 Call the module
 ```
