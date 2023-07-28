@@ -1,0 +1,17 @@
+{
+  "name": "reverse-geoloc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {    
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George Papaioannou",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.4.0",
+    "debug": "^4.3.4",
+    "kdt": "^0.1.0"
+  }
+}
